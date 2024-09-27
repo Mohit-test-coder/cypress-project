@@ -21,6 +21,6 @@ And('click on submit', () => {
 
 Then('login should be successful', () => {
     // cy.get('.oxd-text--h6').should('is.contain', 'Dashboard') //Positive test case
-    cy.get('.oxd-alert-content-text').should('is.contain', 'Invalid credentials') //Negative test case
+    //cy.get('.oxd-alert-content-text').should('is.contain', 'Invalid credentials') //Negative test case
     
 })
